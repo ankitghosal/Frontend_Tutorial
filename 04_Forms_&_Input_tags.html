@@ -27,7 +27,40 @@
         </div>
         <br>
         <div>
+            Bonus: <input type="number" name="myBonus">   <!-- Number Input -->
+        </div>
+        <br>
+        
+        <div>
+            <label for="eligibility">Are you Eligible ? </label>    
+            <!-- <label> -> on clicking on text yo select the option -->
+            <input type="checkbox" name="myEligibility" value="Yes" id="eligibility">  <!-- Checkbox -->
+            <!-- 'id' should be same as 'for' in label tag. -->
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="50" rows="10"></textarea> <!-- Text Area-->
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender">Female<input type="radio" name="myGender"> 
+            <!--Radio Button-->
+            <!-- as both 'Male' and 'Female' have same 'name' attribute, only one can be selected at a time. -->
+        </div>
+    
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">  <!-- select button  -->
+                <option value="volvo">Volvo</option>
+                <option value="bmw" selected>BMW</option>    <!-- 'selected' -> default selected option -->
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <br>
+        <div>
             <input type="submit" value="Submit Now">   <!-- Submit Button -->
+            <input type="reset" value="Reset">           <!-- Reset Button -->
         </div>
         
     </form>
