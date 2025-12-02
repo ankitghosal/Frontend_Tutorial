@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04_Forms_&_Input_tags</title>
+</head>
+<body>
+    
+    <h2>HTML Form Tutorial</h2>
+    <form action="backend.php">   <!-- action="backend.php" -> submit data to 'backend.php' -->
+        
+        <div>   <!-- div is a block element. sends next item in the next line. -->
+            Name: <input type="text" name="myName">  <!-- **##** myName -> to find these entries in backend -->
+        </div>
+        <br>
+        <div>   <!-- Avoid <br> for line break. Use <div> or CSS instead. -->
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate"> <!-- Date Button -->
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">   <!-- Submit Button -->
+        </div>
+        
+    </form>
+
+</body>
+</html>
